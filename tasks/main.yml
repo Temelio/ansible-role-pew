@@ -7,3 +7,22 @@
   tags:
     - 'role::pew'
     - 'role::pew::init'
+    - 'role::postgresql::install'
+
+
+- name: 'INSTALL | Manage Pew system dependencies installation tasks'
+  include: "{{ role_path }}/tasks/install_{{ ansible_os_family | lower }}.yml"
+  become: True
+  when: "pew_manage_system_dependencies | bool"
+  tags:
+    - 'role::pew'
+    - 'role::pew::install'
+
+
+- name: 'INSTALL | Manage Pew installation tasks using pip'
+  include: "{{ role_path }}/tasks/install_pip.yml"
+  become: True
+  when: "pew_install_method == 'pip'"
+  tags:
+    - 'role::pew'
+    - 'role::pew::install'
