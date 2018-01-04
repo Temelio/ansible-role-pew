@@ -1,6 +1,10 @@
 # pew
 
-[![Build Status](https://travis-ci.org/Temelio/ansible-role-pew.svg?branch=master)](https://travis-ci.org/Temelio/ansible-role-pew)
+[![Build Status](https://img.shields.io/travis/Temelio/ansible-role-pew/master.svg?label=travis_master)](https://travis-ci.org/Temelio/ansible-role-pew)
+[![Build Status](https://img.shields.io/travis/Temelio/ansible-role-pew/develop.svg?label=travis_develop)](https://travis-ci.org/Temelio/ansible-role-pew)
+[![Updates](https://pyup.io/repos/github/Temelio/ansible-role-pew/shield.svg)](https://pyup.io/repos/github/Temelio/ansible-role-pew/)
+[![Python 3](https://pyup.io/repos/github/Temelio/ansible-role-pew/python-3-shield.svg)](https://pyup.io/repos/github/Temelio/ansible-role-pew/)
+[![Ansible Role](https://img.shields.io/ansible/role/23073.svg)](https://galaxy.ansible.com/Temelio/pew/)
 
 Install pew package.
 
